@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/todo_set_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/label"
+            android:icon="@drawable/ic_line_weight_black"
+            android:title="Default set" />
+
+        <item
+            android:id="@+id/label1"
+            android:icon="@drawable/ic_line_weight_black"
+            android:title="Set 1" />
+
+        <item
+            android:id="@+id/label2"
+            android:icon="@drawable/ic_line_weight_black"
+            android:title="Set 2" />
+
+        <item
+            android:id="@+id/label_have_done"
+            android:icon="@drawable/ic_check_box_black_24dp"
+            android:title="Completed" />
+
+    </group>
+
+    <item
+        android:id="@+id/add_todo_set_group"
+        android:icon="@drawable/ic_add_circle_outline_black"
+        android:title="New set" />
+
+    <item android:title="Others">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_black"
+                android:title="Setting" />
+
+        </menu>
+
+    </item>
+
+</menu>

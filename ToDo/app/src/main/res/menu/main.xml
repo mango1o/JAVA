@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_by_default"
+        android:orderInCategory="90"
+        android:title="Default sort"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_by_date"
+        android:orderInCategory="100"
+        android:title="Time sort"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_by_importance"
+        android:orderInCategory="111"
+        android:title="Importance sort"
+        app:showAsAction="never" />
+
+</menu>
